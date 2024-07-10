@@ -25,6 +25,8 @@ Source:         %{gosource}
 
 %gopkg
 
+Provides:       go-l2tp = %{version}-%{release}
+
 %prep
 %goprep
 %autopatch -p1
